@@ -1,0 +1,159 @@
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Color de texto predeterminado */
+body,
+.container-form,
+.information,
+.form-information,
+.form,
+.form label {
+    color: white;
+}
+
+/* Restablece el color de texto para la clase .info-childs y sus descendientes */
+.info-childs,
+.info-childs h2,
+.info-childs p,
+.info-childs input {
+    color: #2c2c2c;
+}
+
+/* Resto del CSS */
+/* Estilos para los botones */
+.info-childs input[type="button"],
+.info-childs input[type="button"]:hover,
+.Registrarse input[type="submit"],
+.Registrarse input[type="submit"]:hover {
+    background-color: transparent;
+    color: #2c2c2c;
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.info-childs input[type="button"]:hover,
+.Registrarse input[type="submit"]:hover {
+    background-color: rgb(240, 199, 208);
+    border: none;
+    color: #9c434f;
+    box-shadow: 0 20px 5px rgba(0, 0, 0, -1);
+}
+
+
+body {
+    background-image: url("Componentes/Fondos/MF.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 1000px;
+}
+
+.information,
+.form-information {
+    height: 60%; /* Altura */
+    width: 35%; /* Ancho */
+    display:flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    text-align: center;
+}
+
+.information {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #f0f0f0;
+}
+
+.form-information {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #9c434f;
+}
+
+.info-childs,
+.form-information-childs {
+    width: 100%;
+    padding: 0 30px; /* Ajusta el espaciado interior */
+}
+
+.info-childs h2,
+.form-information-childs h2 {
+    font-size: 2.5rem;
+}
+
+.info-childs p,
+.form-information-childs p {
+    margin: 15px 0;
+}
+
+.icons {
+    margin: 15px 0;
+}
+
+.icons i {
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+    border: solid thin rgb(240, 199, 208);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 20px 5px rgba(0, 0, 0, -1);
+}
+
+.icons i:hover {
+    background-color: #ffffff;
+    color: #9c434f;
+}
+
+.form {
+    margin: 30px 0 0 0;
+}
+
+.form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 50px;
+    background-color: #d1d1d1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, -1);
+}
+
+.form label input {
+    width: 100%;
+    padding: 10px;
+    background-color: #d1d1d1;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.form label i {
+    color: #9c434f;
+}
+
+.form input[type="submit"] {
+    background-color: #d1d1d1;
+    color: #2c2c2c;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, -1);
+}

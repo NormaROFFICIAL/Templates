@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(32, 34, 29);
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-toggler {
+    background-image: url('Componentes/img/BM.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    
+}
+
+    h3 {
+        color: white;
+    }
+
+.gallery {
+    display: flex;
+    overflow-x: auto; 
+    margin-right: 10px;
+}
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+/* Estilos para el contenedor de la lista */
+.nav-list {
+    list-style: none;
+    display: flex; /* Hace que los elementos se muestren en línea (horizontalmente) */
+    padding: 0; /* Quita el relleno de la lista */
+}
+
+/* Estilos para cada elemento de la lista */
+.nav-item {
+    margin-right: 30px; /* Espacio entre los elementos (ajusta según sea necesario) */
+}
+
+/* Estilos para los enlaces de navegación */
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Cambia el color del enlace al pasar el cursor */
+.nav-link:hover {
+    color: #63e0e9;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto; 
+    margin-right: 10px;
+
+}
+h5{
+    color: #ffffff;
+}
+

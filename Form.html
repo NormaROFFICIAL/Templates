@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container-form">
+        <div class="information">
+            <div class="info-childs">
+                <h2>Bienvenido</h2>
+                <p>Por favor registrate con tus datos o regresa a la pagina principal</p>
+                <a href="index.html"><input type="button" value="Regresar"></a>
+
+            </div>
+        </div>
+        <div class="form-information">
+            <div class="form-information-childs">
+                <h2>Crear una cuenta</h2>
+                <div class="icons">
+                    <i class='bx bxl-google'></i>
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-apple' ></i>
+                </div>
+                <p>O usa tu e-mail para registrarte</p>
+                <form class="form">
+                    <label>
+                        <i class='bx bx-user' ></i>
+                        <input type="text" placeholder="Apellidos">
+                        <input type="text" placeholder="Nombre completo">
+                    </label>
+                    <label>
+                        <i class='bx bx-envelope' ></i>
+                        <input type="email" placeholder="Correo electronico">
+                    </label>
+                    <label>
+                        <i class='bx bxs-phone' ></i>
+                        <input type="tel" placeholder="Telefono a 10 digitos" pattern="[0-9]{10}" 
+                        maxlength="10" inputmode="numeric" onkeypress="return /[0-9]/i.test(event.key)">
+                    </label>
+                    <div class="Registrarse">
+                        <input type="submit" value="Registrarse">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
+</html>
